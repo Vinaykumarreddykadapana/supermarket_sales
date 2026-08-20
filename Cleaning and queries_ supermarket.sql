@@ -4,9 +4,6 @@ USE tiendas;
 SELECT 'Invoice ID' 
 FROM supermarket 
 WHERE ('Invoice ID' IS NULL) OR ('Invoice ID' = ' ');
-
-
-
 SELECT Branch FROM supermarket WHERE (Branch IS NULL) OR (Branch = ' ');
 SELECT City FROM supermarket WHERE (City IS NULL) OR (City = ' ');
 SELECT 'Customer type' FROM supermarket WHERE ('Customer type' IS NULL) OR ('Customer type' = ' ');
